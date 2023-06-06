@@ -1,0 +1,15 @@
+/* This is where you will write your CSS */
+h1 {
+  font-size: 3rem;
+}
+
+ul {
+  list-style: disc;
+  margin: 2rem;
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+  padding: 1rem;
+}

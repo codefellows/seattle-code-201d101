@@ -78,3 +78,9 @@ In our code demo we'll do the following:
 ### CSS Cheat Sheet
 
 - [css everything cheatsheet](https://overapi.com/css){:target="_blank"}
+
+## Resources
+
+- [Replit: Data types](https://replit.com/@sheyna/GreenyellowCumbersomeSigns#index.js){:target="_blank"}
+- [Set up a 201 repo](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup){:target="_blank"}
+- [Get practice with Data types](http://replit.com/@rkgallaway/201-class-01-review#index.js){:target="_blank"}
