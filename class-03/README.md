@@ -42,3 +42,8 @@ This class is a highly conceptual. We will be diving deeper into **control flow*
 1. What is control flow in JavaScript?
 
 1. What is a loop? What is an iteration?
+
+## Resources
+
+- [Arrays and For Loops](https://replit.com/@sheyna/ResponsibleGiftedQuote#index.js)
+- [More Loops and Lab prep](https://replit.com/@sheyna/ClearUncomfortableInterface#index.js)

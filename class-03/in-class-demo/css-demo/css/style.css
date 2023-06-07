@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: crimson;
+  margin-bottom: 1rem;
+}
+/*
+DRY = Don't Repeat Yourself
+*/
+section {
+  margin-bottom: 6rem;
+}
+
+.divider-section {
+  padding-bottom: 3rem;
+  border-bottom: 10px solid gray;
+}
+
+.picture {
+  width: 400px;
+  padding: 30px;
+  border: 10px solid red;
+  background-color: darkseagreen;
+}
+
+div {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 25px;
+  display: inline-block;
+  /* float: left; */
+}
+
+#box-two {
+  background-color: antiquewhite;
+}
+
+span {
+  color: red;
+  font-size: 2rem;
+}
+
+p {
+  /* // to escape a float  - both is for left and right */
+  /* clear: both; */
+  color: gray;
+}
