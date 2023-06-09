@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: lavender;
+  /* text-align: center; */
+  width: max-content;
+  margin: auto;
+}
+h2 {
+  font-weight: bold;
+}
+
+
+section {
+  /* border: 15px solid red; */
+  border-width: medium;
+  border-color: red;
+  border-style: solid;
+  width: 80%;
+  /*
+  margin: auto;
+  margin-top: 3rem;
+  */
+  /* clockwise starting at the top */
+  /* top, right, bottom, left */
+  margin: 3rem auto auto auto;
+  min-width: 300px;
+  /* overflow: auto; */
+}
+
+div {
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  float: left;
+}
+
+/* clearfix hack */
+/* source: https://www.w3schools.com/howto/howto_css_clearfix.asp  */
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}

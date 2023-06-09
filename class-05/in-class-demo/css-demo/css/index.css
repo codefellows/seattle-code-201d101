@@ -1,0 +1,38 @@
+
+div, span {
+  border: 1px solid gray;
+}
+h1 {
+  font-size: 2rem;
+}
+
+div.car {
+  border-color: green;
+}
+
+.car {
+  border: 2px solid red;
+}
+
+span.highlight {
+  background-color: orange;
+}
+
+div span {
+  background-color: pink;
+}
+
+
+/* // psuedo state */
+ul:hover {
+  background-color: teal;
+}
+
+/* // psuedo elements */
+ul::before {
+  content: 'ul::before';
+}
+
+ul::after {
+  content: 'ul::after';
+}
