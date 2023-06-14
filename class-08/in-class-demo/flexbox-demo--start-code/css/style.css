@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid black;
+  /* CSS flexbox - put most of the rules in the container element */
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+}
+
+/* the gray boxes: */
+.container div {
+  background-color: lightgray;
+  margin: .5rem;
+  border: 1px solid black;
+  /* display: inline-block; */
+  /* float: left; */
+  width: 200px;
+}
+
+/* #another-container {
+  display: flex;
+} */
