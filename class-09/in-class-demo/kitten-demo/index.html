@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Adopt a Kitten</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Adopt a Kitten</h1>
+  </header>
+  <main>
+    <section>
+    <h2>Kittens Available for Adoption:</h2>
+    <div id="kittenProfiles">
+
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>1st Fav</th>
+          <th>2nd Fav</th>
+          <th>3rd Fav</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>foot</td>
+          <td>foot</td>
+          <td>foot</td>
+          <td>foot</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <aside>
+    <form id="form">
+      <!--
+        Kitten constructor needs:
+        Kitten(name, likes, about, src, alt)
+      -->
+      <fieldset>
+        <legend>Kitten's Info</legend>
+        <!-- "for" attribute of the label needs match the "id" attribute of the input -->
+        <label for="nameOfKitten">Kitten's Name</label>
+        <input type="text" name="kittenName" id="nameOfKitten" placeholder="ex: 'Socks'" required>
+
+        <label>Number of Months Old:
+          <input type="number" name="ageInMonths">
+        </label>
+
+        <label for="aboutKitten">About the Kitten</label>
+        <textarea id="aboutKitten" name="about"></textarea>
+
+        <label>Photo URL
+          <input type="url" name="imageURL">
+        </label>
+
+        <label>Photo description
+          <input type="text" name="imageAlt">
+        </label>
+
+      </fieldset>
+      <fieldset>
+        <legend>Kitten's Favorite Things</legend>
+        <label>1st Favorite:
+          <input type="text" name="fav1">
+        </label>
+        <label>2nd favorite:
+          <input type="text" name="fav2">
+        </label>
+        <label>3rd favorite:
+          <input type="text" name="fav3">
+        </label>
+      </fieldset>
+      <button type="submit">Add Kitten</button>
+    </form>
+  </aside>
+  </main>
+  <footer>
+  </footer>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
