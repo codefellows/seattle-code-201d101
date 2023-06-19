@@ -18,22 +18,42 @@ h1 {
 main {
   width: 1024px;
   margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 250px 4fr;
+  grid-template-rows: 6.5rem 10rem 20rem 40%;
+
 }
 
 #siteLogo {
   width: 250px;
   z-index: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 section {
   /* This element will be a grid item, but also a flex container */
   background-color: rgba(211, 187, 176, 0.3);
   padding: 2rem;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: space-between;
 }
 
 section img {
   width: 460px;
   max-height: 26rem;
+  border: 10px solid transparent;
+}
+
+section img:hover {
+  border: 10px solid rgb(169, 108, 28);
+  cursor: pointer;
 }
 
 ul {
@@ -49,4 +69,9 @@ section + div {
   height: max-content;
   font-size: .8rem;
   margin: 1rem;
+}
+
+section + div.clicks-allowed {
+  background-color: brown;
+  cursor: pointer;
 }

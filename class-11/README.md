@@ -43,3 +43,10 @@ This class will be the start of a new project. You will also be learning a new C
 1. The Array method of `_______` adds one or more elements to the beginning of an array.
 
 1. The Array method of `_______` changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+
+## Resources
+
+- [CSS Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- [CSS Checkbox Hack and All You Can Do with It](https://css-tricks.com/the-checkbox-hack/)
+- [CSS Grid Garde (do through excersie 16)](https://cssgridgarden.com/)
