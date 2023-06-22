@@ -34,14 +34,9 @@
   <main id="mainContent">
     <article>
       <h2>Welcome</h2>
-      <p>We have the finest selections of candies and treats online. Our varied confections are top quality and sure to please your sweet tooth. Check out what we have to offer.</p>
-
-
-      <!-- !!!!! Add Alt text, width and height -->
-      <img src="img/candy-table-display.jpg" alt="Table full of candy. The Candy Shop is your one stop shop for all your candy desires" width=550 height=309>
+      <p>We have the finest selections of candies and treats online. Our varried confections are top quality and sure to please your sweet tooth. Check out what we have to offer.</p>
+      <img src="img/candy-table-display.jpg">
       <p>Photo by PetitPlat - Stephanie Kilgast</p>
-
-
       <aside>
         <h3>Categories</h3>
         <ul>
@@ -58,20 +53,15 @@
       <form>
         <fieldset>
           <legend>Contact Us!</legend>
-
-          <!-- !!!!! Add "for" attributes to lables -->
-          <label for="yourName">Your Name</label>
+          <label>Your Name</label>
           <input id="yourName" type="text" name="userName">
-          <label for="yourComments">Comments</label>
-          <textarea id="yourComments" name="userComment"></textarea>
-
-
+          <label>Comments</label>
+          <textarea id="yourComments" name="userComment">
+        </textarea>
         </fieldset>
         <button type="submit">Submit</button>
       </form>
-
-      <!-- !!!!! Add tabindex - AND add the kepress event listener to app.js -->
-      <div class="cta" tabindex=0>
+      <div class="cta">
         Random Deal
       </div>
       <section id="results">

@@ -15,7 +15,7 @@ function handleClick() {
 
   // image
   let image = document.createElement('img');
-  image.src = 'img/peppermint-bark.jpg';
+  image.src = 'img/pepermint-bark.jpg';
   image.alt = 'today\'s candy deal';
   newSection.appendChild(image);
 
@@ -27,7 +27,7 @@ function handleClick() {
   // button
   let divBtn = document.createElement('div')
   divBtn.setAttribute('class', 'claim-deal');
-  divBtn.textContent = 'Peppermint Bark is 30% off!';
+  divBtn.textContent = 'Pepermint Bark is 30% off!';
   newSection.appendChild(divBtn);
 }
 
