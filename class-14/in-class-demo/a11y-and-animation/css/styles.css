@@ -5,11 +5,12 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #F9E1E1;
-  color: #AB6969
+  color: #770303
 }
 
 h1 {
   font-weight: bold;
+  font-family: 'Cookie', cursive;
   font-size: 5rem;
   z-index: 99;
   margin-bottom: .5rem;
@@ -38,12 +39,13 @@ nav ul li {
 
 nav li {
   margin: 1rem;
-  padding: 0.2rem 1rem;
 }
 
 nav li a {
-  font-size: .5rem;
+  font-size: 1rem;
   text-decoration: none;
+  padding: 0.2rem 1rem;
+  border: 10px solid transparent;
 }
 
 nav li a:hover {
@@ -70,7 +72,7 @@ article {
 article p {
   font-size: 1rem;
   line-height: 150%;
-  font-family: 'Cookie', cursive;
+  /* font-family: 'Cookie', cursive; */
 }
 
 article aside {
@@ -106,6 +108,13 @@ form input {
   padding: .5rem 2rem;
   font-size: 1.5rem;
   margin: 1rem 0;
+  transition: background-color 2s ease;
+}
+
+.cta:hover {
+  background-color: #f5e9e9;
+  color: #9B0303;
+  cursor: pointer;
 }
 
 #results {
@@ -117,7 +126,32 @@ form input {
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
-  position: relative;
+  /* position: relative; */
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+
+@keyframes bounce {
+  20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  0%, 40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes loadFromRight {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .deals h3 {
